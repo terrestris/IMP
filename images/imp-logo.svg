@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200"
+   height="200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="Neues Dokument 1">
+  <defs
+     id="defs4">
+    <path
+       d="M4.2424884,2.9393196L7.1663165,2.9393196L8.689754,5.5818977L10.166317,2.9393196L13.060848,2.9393196L10.388973,7.0994759L13.312801,11.529163L10.330379,11.529163L8.6370196,8.7693977L6.9378009,11.529163L3.9729571,11.529163L6.9378009,7.0526009L4.2424884,2.9393196zM14.133113,2.9393196L17.625301,2.9393196L18.972957,8.1658821L20.314754,2.9393196L23.795223,2.9393196L23.795223,11.529163L21.627254,11.529163L21.627254,4.9783821L19.945613,11.529163L17.982723,11.529163L16.306942,4.9783821L16.306942,11.529163L14.133113,11.529163L14.133113,2.9393196zM25.482723,2.9393196L28.13702,2.9393196L28.13702,9.413929L32.279598,9.413929L32.279598,11.529163L25.482723,11.529163L25.482723,2.9393196z"
+       id="pathTagXML" />
+    <linearGradient
+       y2="-24.507581"
+       x2="-6.6938639"
+       y1="-66.623647"
+       x1="35.759134"
+       xlink:href="#gr5"
+       id="gr7"
+       gradientTransform="scale(0.95529274,1.0467995)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       y2="118.69901"
+       x2="-102.42469"
+       y1="-45.039289"
+       x1="31.911688"
+       xlink:href="#gr5"
+       id="gr6"
+       gradientTransform="scale(0.95542505,1.0466546)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="gr5">
+      <stop
+         id="stop3254"
+         style="stop-color: rgb(218, 218, 218); stop-opacity: 1;"
+         offset="0" />
+      <stop
+         id="stop3256"
+         style="stop-color: rgb(241, 241, 241); stop-opacity: 1;"
+         offset="0.35" />
+      <stop
+         id="stop3258"
+         style="stop-color: rgb(240, 240, 240); stop-opacity: 1;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="16.06717"
+       x2="-99.693483"
+       y1="-159.77675"
+       x1="139.13455"
+       xlink:href="#gr3"
+       id="gr4"
+       gradientTransform="scale(0.98900926,1.0111129)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="gr3">
+      <stop
+         id="stop3248"
+         style="stop-color: rgb(255, 255, 255); stop-opacity: 1;"
+         offset="0" />
+      <stop
+         id="stop3250"
+         style="stop-color: rgb(255, 255, 255); stop-opacity: 0;"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="-79.62355"
+       x2="21.365249"
+       y1="87.70834"
+       x1="-103.83394"
+       xlink:href="#gr1"
+       id="gr2"
+       gradientTransform="scale(0.95538975,1.0466932)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       id="gr1">
+      <stop
+         id="stop3242"
+         style="stop-color: rgb(0, 0, 0); stop-opacity: 0.1;"
+         offset="0" />
+      <stop
+         id="stop3244"
+         style="stop-color: rgb(0, 0, 0); stop-opacity: 0;"
+         offset="1" />
+    </linearGradient>
+    <filter
+       inkscape:collect="always"
+       id="filter4155"
+       x="-0.081348208"
+       width="1.1626964"
+       y="-0.10810371"
+       height="1.2162074">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="5.7467933"
+         id="feGaussianBlur4157" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="166.85201"
+     inkscape:cy="36.835248"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="976"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-852.36218)">
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke:none"
+       id="rect4145"
+       width="200"
+       height="200"
+       x="0"
+       y="852.36218" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text3361"
+       y="1004.5062"
+       x="12.77875"
+       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#f31111;fill-opacity:1;stroke:none;filter:url(#filter4155);font-family:BaileysCar;-inkscape-font-specification:BaileysCar"
+       xml:space="preserve"><tspan
+         y="1004.5062"
+         x="12.77875"
+         id="tspan3363"
+         sodipodi:role="line">IMP</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#e8b932;fill-opacity:1;stroke:none;font-family:BaileysCar;-inkscape-font-specification:BaileysCar"
+       x="12.77875"
+       y="1004.5062"
+       id="text3357"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3359"
+         x="12.77875"
+         y="1004.5062">IMP</tspan></text>
+  </g>
+</svg>

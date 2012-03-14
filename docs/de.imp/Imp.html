@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class Imp</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name">Class Imp</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+															<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Imp.php</p>
+<p class="description"><p>This class acts as the controller for the whole IMP application  It offers the public function to call from outside. <br />  This class has to be instaciated</p></p>
+	<ul class="tags">
+				<li><span class="field">author:</span> M. Jansen</li>
+				<li><span class="field">author:</span> C. Mayer</li>
+				<li><span class="field">version:</span> 0.1</li>
+				<li><span class="field">link:</span> <a href="http://webmapcenter.de/imp">http://webmapcenter.de/imp</a></li>
+				<li><span class="field">since:</span> 2011-04-01</li>
+			</ul>
+		<p class="notes">
+			Located in <a class="field" href="_Imp.php.html">/Imp.php</a> (line <span class="field">23</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+												<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																												
+												<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#Imp" title="details" class="method-name">Imp</a>
+											([<span class="var-type">String</span>&nbsp;<span class="var-name">$xml</span> = <span class="var-default">null</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$isUrl</span> = <span class="var-default">false</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">HTML</span>
+										<a href="#asHtml" title="details" class="method-name">asHtml</a>
+											([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$withLogo</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">HTML</span>
+										<a href="#asInspireHtml" title="details" class="method-name">asInspireHtml</a>
+											([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$withLogo</span> = <span class="var-default">true</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">a</span>
+										<a href="#asJson" title="details" class="method-name">asJson</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">a</span>
+										<a href="#asJsonP" title="details" class="method-name">asJsonP</a>
+											([<span class="var-type">object</span>&nbsp;<span class="var-name">$funcName</span> = <span class="var-default">'callback'</span>])
+									</div>
+																<div class="method-definition">
+											<span class="method-result">JS</span>
+										<a href="#asOpenLayersFeatures" title="details" class="method-name">asOpenLayersFeatures</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">HTML</span>
+										<a href="#asPdf" title="details" class="method-name">asPdf</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#getXml" title="details" class="method-name">getXml</a>
+										()
+									</div>
+																<div class="method-definition">
+											<span class="method-result">void</span>
+										<a href="#setXml" title="details" class="method-name">setXml</a>
+											(<span class="var-type">object</span>&nbsp;<span class="var-name">$xml</span>)
+									</div>
+								</div>
+		</div>
+	</div>		
+
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+
+<a name="methodImp" id="Imp"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">Constructor Imp</span> (line <span class="line-number">39</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Constructor to get an Instance of IMP  Submit the XML to parse whether as String or by URL</p>
+	<ul class="tags">
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			Imp
+		</span>
+					([<span class="var-type">String</span>&nbsp;<span class="var-name">$xml</span> = <span class="var-default">null</span>], [<span class="var-type">boolean</span>&nbsp;<span class="var-name">$isUrl</span> = <span class="var-default">false</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">String</span>
+				<span class="var-name">$xml</span><span class="var-description">: [optional] XML as String or the URL to the XML</span>			</li>
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$isUrl</span><span class="var-description">: [optional] Defines wheter XML or an URL is passed</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodasHtml" id="asHtml"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">asHtml</span> (line <span class="line-number">176</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Public function in order to receive the given metadata XML</p>
+<p class="description"><p>as HTML. <br />  Here a default layout is returned whcih offeres an overview of the  single metadata records</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> overview table with the metadata records</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">HTML</span>
+		<span class="method-name">
+			asHtml
+		</span>
+					([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$withLogo</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$withLogo</span><span class="var-description">: [optional] the flag defining if the logo is visualized (default is true)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodasInspireHtml" id="asInspireHtml"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">asInspireHtml</span> (line <span class="line-number">262</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Public function in order to receive the given metadata XML  as HTML. <br />  Here a layout showing the INSPIRE relevant tags in a table  is returned.</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> overview table with the INSPIRE tags</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">HTML</span>
+		<span class="method-name">
+			asInspireHtml
+		</span>
+					([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$withLogo</span> = <span class="var-default">true</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$withLogo</span><span class="var-description">: [optional] the flag defining if the logo is visualized (default is true)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodasJson" id="asJson"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">asJson</span> (line <span class="line-number">115</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">public function in order to receive the given XML as JSON data  Here the default configuration is returned</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> default JSON object representing the metadata XML</li>
+				<li><span class="field">todo:</span> make the result set configurable from outside</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">a</span>
+		<span class="method-name">
+			asJson
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodasJsonP" id="asJsonP"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">asJsonP</span> (line <span class="line-number">150</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Public function in order to receive the given metadata XML  as JSON data warpped in a JS callback function  Here the default configuration is returned</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> JS function with the JSON data as parameter</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">a</span>
+		<span class="method-name">
+			asJsonP
+		</span>
+					([<span class="var-type">object</span>&nbsp;<span class="var-name">$funcName</span> = <span class="var-default">'callback'</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object</span>
+				<span class="var-name">$funcName</span><span class="var-description">: [optional] the name of the callback function (default is callback)</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodasOpenLayersFeatures" id="asOpenLayersFeatures"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">asOpenLayersFeatures</span> (line <span class="line-number">428</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Public function in order to receive the given metadata XML  as OpenLayers.Features. <br />  With this output type the BBOX elements of the records could be directly visualized in an OL client</p>
+	<ul class="tags">
+				<li><span class="field">return:</span> array with OpenLayers.Feature objects</li>
+				<li><span class="field">link:</span> <a href="http://openlayers.org">http://openlayers.org</a></li>
+				<li><span class="field">todo:</span> add feature attributes</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">JS</span>
+		<span class="method-name">
+			asOpenLayersFeatures
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodasPdf" id="asPdf"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">asPdf</span> (line <span class="line-number">490</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Public function in order to receive the given metadata XML</p>
+<p class="description"><p>as PDF. <br />  Here a default layout is returned which offeres an overview of the  single metadata records</p></p>
+	<ul class="tags">
+				<li><span class="field">return:</span> overview table with the metadata records</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">HTML</span>
+		<span class="method-name">
+			asPdf
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetXml" id="getXml"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<span class="method-title">getXml</span> (line <span class="line-number">606</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Returns $xml.</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> Imp::$xml</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getXml
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetXml" id="setXml"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<span class="method-title">setXml</span> (line <span class="line-number">616</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Sets $xml.</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> Imp::$xml</li>
+				<li><span class="field">access:</span> public</li>
+			</ul>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setXml
+		</span>
+					(<span class="var-type">object</span>&nbsp;<span class="var-name">$xml</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">object</span>
+				<span class="var-name">$xml</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 01 Apr 2011 14:16:39 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.3</a>
+	</p>
+	</div></body>
+</html>

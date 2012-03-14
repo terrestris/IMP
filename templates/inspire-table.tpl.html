@@ -1,0 +1,388 @@
+<!--
+
+    Copyright (c) 2012, terrestris GmbH & Co. KG
+    All rights reserved.
+    
+    Redistribution and use in source and binary forms, with or without 
+    modification, are permitted provided that the following conditions are met:
+    
+    - Redistributions of source code must retain the above copyright notice, this 
+      list of conditions and the following disclaimer.
+    - Redistributions in binary form must reproduce the above copyright notice, 
+      this list of conditions and the following disclaimer in the documentation 
+      and/or other materials provided with the distribution.
+    - Neither the name of terrestris GmbH & Co. KG nor the names of its 
+      contributors may be used to endorse or promote products derived from this 
+      software without specific prior written permission.
+    
+    THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+    AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+    IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE 
+    ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE 
+    LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+    CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+    SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS 
+    INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+    CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) 
+    ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE 
+    POSSIBILITY OF SUCH DAMAGE.
+    
+    BSD-License from http://www.opensource.org/licenses/bsd-license.php
+ 
+    @author C. Mayer <mayer@terrestris.de>
+    @author M. Jansen <jansen@terrestris.de>
+     
+    @version $Id: inspire-table.tpl.html 57 2012-03-14 10:30:18Z mayer $
+
+-->
+<table>
+    <caption>
+       [tableHead]
+    </caption>
+    <thead>
+        <tr>
+            <th scope="col">
+                Thema
+            </th>
+            <th scope="col">
+                Nr.
+            </th>
+            <th scope="col">
+                Element
+            </th>
+            <th scope="col">
+                Bedeutung
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row" rowspan="7">
+                Identifizierung
+            </th>
+            <td>
+                1.1
+            </td>
+            <td>
+                Ressourcenbezeichnung 
+            </td>
+            <td>
+                [title]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1.2
+            </td>
+            <td>
+                Ressourcenüberblick 
+            </td>
+            <td>
+                [recordAbstract]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1.3
+            </td>
+            <td>
+                Ressourcenart 
+            </td>
+            <td>
+                [scopeCode]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1.4
+            </td>
+            <td>
+                Ressourcenverweis 
+            </td>
+            <td>
+                [onlineResource]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1.5
+            </td>
+            <td>
+                Eindeutiger Ressourcenbezeichner 
+            </td>
+            <td>
+                [fileIdentifier]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1.6
+            </td>
+            <td>
+                Gekoppelte Ressource 
+            </td>
+            <td>
+                [operatesOn]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                1.7
+            </td>
+            <td>
+                Ressourcensprache 
+            </td>
+            <td>
+                [dataSetLanguage]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="2">
+                Klassifizierung
+            </th>
+            <td>
+                2.1
+            </td>
+            <td>
+                Themenkategorie
+            </td>
+            <td>
+                [topicCategory]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2.2
+            </td>
+            <td>
+                Art des Geodatendienstes
+            </td>
+            <td>
+                [serviceType]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="2">
+                Schlüsselwort
+            </th>
+            <td>
+                3.1
+            </td>
+            <td>
+                Schlüsselwörter
+            </td>
+            <td>
+                [keywords]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                3.2
+            </td>
+            <td>
+                Herkunft des kontrollierten Vokabulars
+            </td>
+            <td>
+                [keywordsThesaurusName]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">
+                Geografischer Standort
+            </th>
+            <td>
+                4.1
+            </td>
+            <td>
+                Geografisches Begrenzungsrechteck 
+            </td>
+            <td>
+                [geographicBoundingBox]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="4">
+                Zeitbezug
+            </th>
+            <td>
+                5.1
+            </td>
+            <td>
+                Zeitliche Ausdehnung 
+            </td>
+            <td>
+                [temporalExtent]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5.2
+            </td>
+            <td>
+                Datum der Veröffentlichung 
+            </td>
+            <td>
+                [publicationDate]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5.3
+            </td>
+            <td>
+                Datum der letzten Überarbeitung 
+            </td>
+            <td>
+                [revisionDate]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5.4
+            </td>
+            <td>
+                Erstellungsdatum 
+            </td>
+            <td>
+                [creationDate]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="2">
+                Qualität und Gültigkeit
+            </th>
+            <td>
+                6.1
+            </td>
+            <td>
+                Herkunft
+            </td>
+            <td>
+            	[lineage]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                6.2
+            </td>
+            <td>
+                Räumliche Auflösung 
+            </td>
+            <td>
+            	[resolution]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="2">
+                Übereinstimmung
+            </th>
+            <td>
+                7.1
+            </td>
+            <td>
+                Spezifikation
+            </td>
+            <td>
+            	[specification]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                7.2
+            </td>
+            <td>
+                Grad
+            </td>
+            <td>
+            	[pass]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="2">
+                Zugangs- und Nutzungs-
+                beschränkungen
+            </th>
+            <td>
+                8.1
+            </td>
+            <td>
+                Bedingungen für Zugang und Nutzung 
+            </td>
+            <td>
+                [useConstraint]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                8.2
+            </td>
+            <td>
+                Beschränkungen des öffentlichen Zugangs 
+            </td>
+            <td>
+                [accessConstraint]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="2">
+                Zuständige Stelle
+            </th>
+            <td>
+                9.1
+            </td>
+            <td>
+                Zuständige Stelle
+            </td>
+            <td>
+           		[pointOfContact]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                9.2
+            </td>
+            <td>
+                Funktion der zuständigen Stelle 
+            </td>
+            <td>
+                [pointOfContactRole]
+            </td>
+        </tr>
+        <tr>
+            <th scope="row" rowspan="3">
+                Metadaten über Metadaten
+            </th>
+            <td>
+                10.1
+            </td>
+            <td>
+                Kontakt für die Metadaten
+            </td>
+            <td>
+                [responsibleParty]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                10.2
+            </td>
+            <td>
+                Datum der Metadaten
+            </td>
+            <td>
+                [dateStamp]
+            </td>
+        </tr>
+        <tr>
+            <td>
+                10.3
+            </td>
+            <td>
+                Sprache der Metadaten
+            </td>
+            <td>
+                [metaDataLanguage]
+            </td>
+        </tr>
+    </tbody>
+</table>
