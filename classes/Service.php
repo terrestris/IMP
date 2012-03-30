@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright (c) 2011, terrestris GmbH & Co. KG
+ * Copyright (c) 2012, terrestris GmbH & Co. KG
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without 
@@ -38,9 +38,6 @@ require_once('MetadataRecord.php');
  * Service.php
  * 
  * This class represents a metadata set for the ressource type 'Service'
- * 
- * At the Moment no specific tags are defined in here, so it is eqivalent to
- * the baseclass 
  * 
  * @see MetaDataRecord
  * 
