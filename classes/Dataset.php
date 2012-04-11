@@ -1,6 +1,6 @@
 <?php
 /*
- * Copyright (c) 2011, terrestris GmbH & Co. KG
+ * Copyright (c) 2012, terrestris GmbH & Co. KG
  * All rights reserved.
  * 
  * Redistribution and use in source and binary forms, with or without 
